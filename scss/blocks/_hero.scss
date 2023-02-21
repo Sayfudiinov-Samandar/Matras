@@ -1,0 +1,92 @@
+.hero {
+  position: relative;
+  padding: 80px 0 130px 0;
+}
+
+.hr-border {
+  width: 100%;
+  position: absolute;
+  bottom: calc(50% + -235px);
+  background-color: #01384d;
+  opacity: 0.3;
+}
+
+.hero-info-text {
+  padding-bottom: 103px;
+}
+.hero-inf-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.hero-inf-strong {
+  margin-bottom: 10px;
+  display: block;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 120px;
+  line-height: 141px;
+  text-align: center;
+  color: #01384d;
+}
+.hero-inf-text {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #01384d;
+}
+
+.hero-mahsulotlar-title {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 59px;
+  text-align: center;
+  color: #01384d;
+}
+
+.hero-cotegory-list {
+  padding: 0px;
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+.hero-cotegory-barchasi {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #01384d;
+}
+.hero-cotegory-text {
+  padding: 12px 31px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #01384d;
+  border-radius: 5px;
+  border: none;
+  background-color: transparent;
+}
+
+.active-btn {
+  background-color: rgb(1, 56, 77, 0.1);
+}
+
+.castem-border-botom {
+  margin-right: 38px;
+  border-bottom: 4px solid #01384d;
+}

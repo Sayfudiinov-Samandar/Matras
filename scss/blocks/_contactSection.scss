@@ -1,0 +1,68 @@
+.contact-section {
+  padding: 112px 0 112px 0;
+  background-color: #eabf9f;
+  margin-bottom: 60px;
+}
+
+.contact-title {
+  margin: 0;
+  margin-bottom: 10px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #01384d;
+}
+.contact-text {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  color: #01384d;
+}
+
+.contact-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-form {
+  width: 50%;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.contact-submit-inp {
+  width: 100%;
+  max-width: 420px;
+  padding: 23px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 1px solid #fff;
+
+  &::placeholder {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #01384d;
+    opacity: 0.4;
+  }
+}
+
+.contact-submit-btn {
+  background-color: #01384d;
+  padding: 22px 82px;
+  border-radius: 5px;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #ffffff;
+}

@@ -1,0 +1,126 @@
+.main-list{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.main_list-item {
+  width: 100%;
+  padding: 20px 40px 30px 40px;
+  display: flex;
+  gap: 100px;
+  background-color: #f6fbff;
+  border: 1px solid #c7dff5;
+}
+
+.main_list-img-box {
+}
+.main-info-matras-new {
+  display: inline-block;
+  padding: 10px 30px;
+  margin-bottom: 70px;
+  background-color: #ff6b6b;
+  border-radius: 5px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.main_list-title {
+  margin: 0;
+  margin-bottom: 30px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #01384d;
+}
+.main-list-mahsulotlar {
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 85px;
+  list-style: none;
+}
+.list_text {
+  margin-bottom: 7px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #01384d;
+  opacity: 0.6;
+}
+
+.list_strong {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #01384d;
+}
+.main-list-matras-info {
+  margin-bottom: 25px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  color: #01384d;
+  opacity: 0.6;
+}
+.main-list-mahsulot-price {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 25px;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 32px;
+  color: #01384d;
+}
+.main-list-mahsulot-price p {
+    margin-bottom: auto;
+  font-size: 16px;
+  line-height: 19px;
+}
+.main-list-to-order-btn {
+  position: relative;
+  padding: 13px 56px 13px 20px;
+  background-color: transparent;
+  border: 2px solid #01384d;
+  border-radius: 5px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #01384d;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 14px;
+    right: 18px;
+    width: 17px;
+    height: 17px;
+    background-image: url("../../images/order-karzinka.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}

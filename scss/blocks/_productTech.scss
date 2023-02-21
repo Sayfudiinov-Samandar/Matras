@@ -1,0 +1,124 @@
+.pro-tech {
+  padding-bottom: 100px;
+}
+
+.pro-texh_item {
+  width: 100%;
+  max-width: 400px;
+}
+
+.pro-tech_title {
+  margin-bottom: 80px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 59px;
+  text-align: center;
+  color: #01384d;
+}
+.pro-tech_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+margin: 0 auto;
+  padding: 0;
+  padding-bottom: 140px;
+  list-style: none;
+}
+
+.pro-tech_list-title {
+  margin: 0;
+  margin-bottom: 25px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  color: #01384d;
+}
+
+.pro-tech-iframe {
+  border: 3px solid #01384d;
+  border-radius: 10px;
+}
+.pro-tech_list-text {
+  font-family: "Open Sans Arial";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  color: #01384d;
+  opacity: 0.6;
+}
+
+.pro-tech_dream-list{
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  align-content: center;
+  margin-bottom: 120px;
+}
+
+.dream-list_item {
+  display: flex;
+  // flex-wrap: wrap;
+  justify-content:center;
+  gap: 30px;
+}
+
+.dream-list_text-box {
+  width: 100%;
+  max-width: 600px;
+}
+
+.dream-list__item-title {
+  margin: 0;
+  margin-bottom: 28px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 64px;
+  color: #01384d;
+}
+
+.dream-list__item-text {
+  margin-bottom: 20px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  color: #01384d;
+}
+
+.pro-tech-list_in-list {
+
+  background-color: #eabf9f;
+  border: 2px solid #01384d;
+  border-radius: 8px;
+}
+
+.list-in_item-text {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #01384d;
+}
+
+
+.dream-list_item{
+  &:nth-child(2){
+    flex-direction: row-reverse;
+  }
+}
+
+.dream-list__item-text-mt{
+  margin-top: 30px;
+}

@@ -1,32 +1,604 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Template</title>
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/main.css" />
 
-</head>
-<body>
+  </head>
+  <body>
     <header class="site-header">
-        <div class="container">
+      <div class="container">
+        <div class="site-header-box">
+          <ul class="site-header-top-list">
+            <li>
+              <a class="site-header-top-list-link" href="#">Katalog</a>
+            </li>
+            <li>
+              <a class="site-header-top-list-link" href="#">Aksiya</a>
+            </li>
+            <li>
+              <a class="site-header-top-list-link" href="#">Biz haqimizda</a>
+            </li>
+            <li>
+              <a class="site-header-top-list-link" href="#">Manzilimiz</a>
+            </li>
+            <li>
+              <a class="site-header-top-list-link" href="#">Aloqa</a>
+            </li>
+          </ul>
 
+          <div class="header">
+            <img
+              src="./images/logo-header.svg"
+              width="160"
+              height="38"
+              alt="site logo" />
+
+            <div>
+              <a class="header-tel" href="tel:+998 90 123 45 67"
+                >+998 90 123 45 67</a
+              >
+              <button class="header-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Buyurtma berish</button>
+            </div>
+          </div>
+
+          <div>
+            <ul class="slider">
+              <li class="slider_li">
+                <div class="slider_li_text-box">
+                  <h2 class="header-slider-carusel-title">
+                    Kechalari sokin dam oling
+                  </h2>
+                  <button class="header-slider-carusel-btn">
+                    Kategoriyalar
+                  </button>
+                </div>
+                <img
+                  class="header-slider-carusel-img"
+                  src="./images/hero-divan.png"
+                  width="705"
+                  height="380"
+                  alt="Divan" />
+              </li>
+
+              <li class="slider_li">
+                <div>
+                  <h2 class="header-slider-carusel-title">
+                    Kechalari sokin dam oling
+                  </h2>
+                  <button class="header-slider-carusel-btn">
+                    Kategoriyalar
+                  </button>
+                </div>
+                <img
+                  class="header-slider-carusel-img"
+                  src="./images/hero-divan.png"
+                  width="705"
+                  height="380"
+                  alt="Divan" />
+              </li>
+
+              <li class="slider_li">
+                <div>
+                  <h2 class="header-slider-carusel-title">
+                    Kechalari sokin dam oling
+                  </h2>
+                  <button class="header-slider-carusel-btn">
+                    Kategoriyalar
+                  </button>
+                </div>
+                <img
+                  class="header-slider-carusel-img"
+                  src="./images/hero-divan.png"
+                  width="705"
+                  height="380"
+                  alt="Divan" />
+              </li>
+
+              <li class="slider_li">
+                <div>
+                  <h2 class="header-slider-carusel-title">
+                    Kechalari sokin dam oling
+                  </h2>
+                  <button class="header-slider-carusel-btn">
+                    Kategoriyalar
+                  </button>
+                </div>
+                <img
+                  class="header-slider-carusel-img"
+                  src="./images/hero-divan.png"
+                  width="705"
+                  height="380"
+                  alt="Divan" />
+              </li>
+            </ul>
+          </div>
         </div>
+      </div>
     </header>
 
     <main class="site-main">
-        <section class="hero">
-            <div class="container">
+      <section class="hero">
+        <div class="container">
+          <div class="hero-info-text">
+            <ul class="hero-inf-list">
+              <li class="hero-inf-item">
+                <strong class="hero-inf-strong"> 7 </strong>
+                <p class="hero-inf-text">yillik tajriba</p>
+              </li>
+              <li class="hero-inf-item">
+                <strong class="hero-inf-strong"> 10k+ </strong>
+                <p class="hero-inf-text">mamnun mijozlar</p>
+              </li>
+              <li class="hero-inf-item">
+                <strong class="hero-inf-strong"> 10 </strong>
+                <p class="hero-inf-text">yillik kafolat</p>
+              </li>
+              <li class="hero-inf-item">
+                <strong class="hero-inf-strong"> 3 </strong>
+                <p class="hero-inf-text">kunda yetkazish</p>
+              </li>
+            </ul>
+          </div>
+        </div>
 
+
+        <div class="container">
+          <div class="hero-mahsulotlar">
+            <h3 class="hero-mahsulotlar-title">Bizning mahsulotlar</h3>
+            <ul class="hero-cotegory-list">
+              <li class="hero-cotegory-item castem-border-botom">
+                <p class="hero-cotegory-barchasi">Barchasi</p>
+              </li>
+
+              <li class="hero-cotegory-item">
+                <button class="hero-cotegory-text active-btn">Model A+</button>
+              </li>
+              <li class="hero-cotegory-item">
+                <button class="hero-cotegory-text">Model B+</button>
+              </li>
+              <li class="hero-cotegory-item">
+                <button class="hero-cotegory-text">Model C+</button>
+              </li>
+              <li class="hero-cotegory-item">
+                <button class="hero-cotegory-text">Model I+</button>
+              </li>
+            </ul>
+
+            <ul class="main-list">
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="pro-tech">
+        <div class="container">
+          <div>
+            <h3 class="pro-tech_title">Ishlab chiqarish texnologiyalari</h3>
+            <ul class="pro-tech_list">
+
+            </ul>
+
+            <ul class="pro-tech_dream-list dream-list">
+              <li class="dream-list_item">
+                <div class="dream-list_text-box">
+                  <h4 class="dream-list__item-title">
+                    Dream Cloud kompaniyasi haqida
+                  </h4>
+                  <p class="dream-list__item-text">
+                    Penatibus viverra gravida rhoncus in. At turpis morbi ante
+                    tortor a est. Habitant adipiscing ut sed pulvinar tellus, ut
+                    urna, fermentum:
+                  </p>
+
+                  <ul class="pro-tech-list_in-list list-in">
+                    <li class="list-in_item">
+                      <p class="list-in_item-text">
+                        Penatibus viverra gravida rhoncus in.
+                      </p>
+                    </li>
+                    <li class="list-in_item">
+                      <p class="list-in_item-text">
+                        Dolor integer in interdum viverra risus dolor enim.
+                      </p>
+                    </li>
+                    <li class="list-in_item">
+                      <p class="list-in_item-text">
+                        Turpis senectus eu, eget aenean nulla pellentesque sed
+                        ut tempor.
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+                <iframe
+                  class="pro-tech-iframe"
+                  width="625"
+                  height="400"
+                  src="https://www.youtube.com/embed/x_i03XIrXwo"
+                  title="Samsung Galaxy S23, S23+, S23 Ultra | Texnoplov"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen></iframe>
+              </li>
+              <li class="dream-list_item">
+                <div class="dream-list_text-box">
+                  <p class="dream-list__item-text">
+                    Libero erat praesent ullamcorper eget tortor sed et. Nec id
+                    lobortis gravida vitae. Scelerisque id fusce vitae ut.
+                    Integer sed vulputate sed nec. Arcu id mattis erat et id.
+                  </p>
+
+                  <ul class="pro-tech-list_in-list list-in">
+                    <li class="list-in_item">
+                      <p class="list-in_item-text">
+                        Penatibus viverra gravida rhoncus in.
+                      </p>
+                    </li>
+                    <li class="list-in_item">
+                      <p class="list-in_item-text">
+                        Dolor integer in interdum viverra risus dolor enim.
+                      </p>
+                    </li>
+                    <li class="list-in_item">
+                      <p class="list-in_item-text">
+                        Turpis senectus eu, eget aenean nulla pellentesque sed
+                        ut tempor.
+                      </p>
+                    </li>
+                  </ul>
+                  <p class="dream-list__item-text dream-list__item-text-mt">
+                    Ac tortor volutpat pellentesque mauris nisi, praesent. Et
+                    tempus accumsan est elementum feugiat arcu mauris tincidunt.
+                    Eget faucibus pharetra et luctus eget ut fames. A cursus
+                    elementum egestas eu scelerisque id.
+                  </p>
+                </div>
+                <iframe
+                  class="pro-tech-iframe"
+                  width="625"
+                  height="400"
+                  src="https://www.youtube.com/embed/x_i03XIrXwo"
+                  title="Samsung Galaxy S23, S23+, S23 Ultra | Texnoplov"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen></iframe>
+              </li>
+            </ul> 
+            <h3 class="pro-tech_title">Nega bizni tanlashadi</h3>
+
+            <ul class="choose-list">
+              <li class="choose-list_item">
+                <img
+                  src="./images/foorgon.png"
+                  width="400"
+                  height="220"
+                  alt="dastavka foorgon" />
+                <div class="choose-list_text-box">
+                  <h5 class="choose-list_item-title">Yetkazib berish</h5>
+                  <p class="choose-list_item-text">
+                    Toshkent bo'ylab bepul o'lchov va etkazib berish
+                  </p>
+                </div>
+              </li>
+              <li class="choose-list_item">
+                <img
+                  src="./images/foorgon.png"
+                  width="400"
+                  height="220"
+                  alt="dastavka foorgon" />
+                <div class="choose-list_text-box">
+                  <h5 class="choose-list_item-title">Yetkazib berish</h5>
+                  <p class="choose-list_item-text">
+                    Toshkent bo'ylab bepul o'lchov va etkazib berish
+                  </p>
+                </div>
+              </li>
+              <li class="choose-list_item">
+                <img
+                  src="./images/foorgon.png"
+                  width="400"
+                  height="220"
+                  alt="dastavka foorgon" />
+                <div class="choose-list_text-box">
+                  <h5 class="choose-list_item-title">Yetkazib berish</h5>
+                  <p class="choose-list_item-text">
+                    Toshkent bo'ylab bepul o'lchov va etkazib berish
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="addres-section">
+        <div class="container">
+            <ul class="slider-in">
+
+            <li class="slider-in_item">
+              <div class="addres-li-info-box">
+                <h4 class="addres-list_title">Manzilimiz</h4>
+                <strong class="addres-list_addres-name"
+                >Toshkent, Parkent ko'chasi, 176-uy</strong
+                >
+                <p class="addres-list_addres-text">
+                  Mo’ljal: Qoraqamish 2/1, Tursunxodjayeva ro’parasi, Milliy
+                  bog’ metro bekati.
+                </p>
+      
+                <a class="addres-list_addres-map" href="#">Geolokatsiya</a>
+              </div>
+      
+      
+              <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img
+                    src="./images/foorgon.png"
+                    width="500"
+                    height="400"
+                    alt="" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                    src="./images/hero-divan.png"
+                    width="500"
+                    height="400"
+                    alt="" />
+                  </div>
+                </div>
+                <div class="swiper-scrollbar"></div>
+              </div>
+            </li> 
+
+
+            <li class="slider-in_item">
+              <div class="addres-li-info-box">
+                <h4 class="addres-list_title">Manzilimiz</h4>
+                <strong class="addres-list_addres-name"
+                >Toshkent, Parkent ko'chasi, 176-uy</strong
+                >
+                <p class="addres-list_addres-text">
+                  Mo’ljal: Qoraqamish 2/1, Tursunxodjayeva ro’parasi, Milliy
+                  bog’ metro bekati.
+                </p>
+      
+                <a class="addres-list_addres-map" href="#">Geolokatsiya</a>
+              </div>
+      
+      
+              <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img
+                    src="./images/foorgon.png"
+                    width="500"
+                    height="400"
+                    alt="" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img
+                    src="./images/hero-divan.png"
+                    width="500"
+                    height="400"
+                    alt="" />
+                  </div>
+                </div>
+                <div class="swiper-scrollbar"></div>
+              </div>
+            </li> 
+            </ul>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="contact-section">
+        <div class="container">
+            <div class="contact-box">
+                <div>
+                    <h4 class="contact-title">
+                      Sizni qiziqtirdimi?
+                    </h4>
+                    <p class="contact-text">Raqamingizni qoldiring, biz sizga yana qo'ng'iroq qilamiz</p>
+                </div>
+
+                <form class="contact-form">
+                  <input class="contact-submit-inp" type="tel:+998"  placeholder="+998 | Raqamingizni yozing">
+                  <button class="contact-submit-btn" type="submit">Yuborish</button>
+                </form>
             </div>
-        </section>
+        </div>
+      </section>
     </main>
 
     <footer class="site-footer">
-        <div class="container">
+      <div class="container">
+        <div>
+          <div class="footer-top-box">
+            <ul class="footer-top_list">
+              <li class="footer-top_list-item">
+                <a class="footer-top_list-link" href="#">Biz haqimizda</a>
+              </li>
+              <li class="footer-top_list-item">
+                <a class="footer-top_list-link" href="#">Katalog</a>
+              </li>
+              <li class="footer-top_list-item">
+                <a class="footer-top_list-link" href="#">Aksiya</a>
+              </li>
+              <li class="footer-top_list-item">
+                <a class="footer-top_list-link" href="#">Manzilimiz</a>
+              </li>
+            </ul>
 
+            <div class="footer-links-box">
+              <a  class="footer-links" href="#">
+                <img src="./images/facebook-black.svg" width="24" height="24" alt="Facebook">
+              </a>
+              <a  class="footer-links" href="#">
+                <img src="./images/Twitter.svg" width="24" height="20" alt="Twitter">
+              </a>
+              <a  class="footer-links" href="#">
+                <img src="./images/Vimeo.svg" width="24" height="21" alt="Vimeo">
+              </a>
+              <a  class="footer-links" href="#">
+                <img src="./images/Youtube.svg" width="24" height="17" alt="youtube">
+              </a>
+            </div>
+          </div>
+
+          <hr>
+
+          <div class="footer-bottom-box"> 
+
+            <p class="site-sevfty">
+              © 2021 Dream Cloud. Barcha huquqlar himoyalangan.
+            </p>
+
+
+            <a class="footer-arrow-to" href="#">
+              <img src="./images/arrow-to.svg" width="50" height="50" alt="To">
+            </a>
+
+            <a href="#">
+              <img src="./images/vizitka.png" width="255" height="41" alt="Abutech">
+            </a>
+          </div>
         </div>
+      </div>
     </footer>
-</body>
+
+    <template class="active-product">
+      <li class="main_list-item">
+        <div class="main_list-img-box">
+          <span class="main-info-matras-new">Yangi mahsulot</span>
+          <img
+          class="product-img"
+            src="./images/matras-li.png"
+            width="464"
+            height="213"
+            alt="main-li-img" />
+        </div>
+
+        <div>
+          <h4 class="main_list-title">Ortopedik Eko matras</h4>
+
+          <ul class="main-list-mahsulotlar list">
+            <li class="list_item">
+              <p class="list_text">Yuklama</p>
+              <strong class="list_strong weight-product">150 kg</strong>
+            </li>
+            <li class="list_item">
+              <p class="list_text">Kafolat</p>
+              <strong class="list_strong product-waryanty">yil</strong>
+            </li>
+            <li class="list_item">
+              <p class="list_text ">O’lchami</p>
+              <strong class="list_strong size-product">200x120x40</strong>
+            </li>
+            <li class="list_item">
+              <p class="list_text">Sig’imi</p>
+              <strong class="list_strong capacity-product">2 kishilik</strong>
+            </li>
+          </ul>
+
+          <p class="main-list-matras-info">
+            Penatibus viverra gravida rhoncus in. At turpis morbi ante
+            tortor a est. Habitant adipiscing ut sed pulvinar tellus, ut
+            urna, fermentum. Porttitor senectus lorem rhoncus facilisi
+            ac dictum varius egestas.
+          </p>
+
+          <p class="list_text">Narxi</p>
+          <strong class="main-list-mahsulot-price">
+            1 699 999
+            <p>so'm</p>
+          </strong>
+
+
+
+          <button type="button" class="btn btn-primar main-list-to-order-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Buyurtma berish
+          </button>
+        </div>
+      </li>
+    </template>
+
+    <template class="technalogies-tpmt">
+      <li class="pro-texh_item">
+        <h4 class="pro-tech_list-title">Memoriform</h4>
+
+        <iframe
+          class="pro-tech-iframe"
+          width="400"
+          height="300"
+          src="https://www.youtube.com/embed/x_i03XIrXwo"
+          allowfullscreen>
+          </iframe>
+        <p class="pro-tech_list-text">
+          Lectus pellentesque senectus elit donec massa ipsum ultricies
+          dui. Bibendum et enim fringilla tincidunt ligula non,
+          condimentum nunc.
+        </p>
+      </li>
+      
+    </template>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <div class="madal-box">
+              <h3 class="modal-order-title">Buyurtma qilish</h3>
+                <form class="madal-order-add-form">
+                  <input class="order-name-inp order-inp" type="text" placeholder="Ismingizni yozing">
+                  <label class="madal-phone-label">
+                    <span class="phone-start">+998</span>
+                    <input  class="order-tel-inp " type="tel: +998" placeholder="Raqamingizni yozing">
+                  </label>
+                    <label class="madal-order-produc-name-label">
+                      <p class="modal-order-name-text">Mahsulotlarni toifasini tanlang</p>
+                      <input class="order-name-input-product order-inp" type="text" placeholder="Product name">
+                    </label>
+
+                    <div class="count-box">
+                      <p class="modal-order-name-text">Miqdorni tanlang</p>
+                      <div class="madal-count-box">
+                        <button class="madal-count-min madal-count-btn" type="button">-</button>
+                        <span class="madal-count-summ">0</span>
+                        <button class="madal-count-pls  madal-count-btn btn-count" type="button">+</button>
+                      </div>
+                    </div>
+
+                    <button class="madal-order-send-btn" type="submit">Yuborish</button>
+                </form>
+            </div>  
+            <div class="order-succses-box">
+              <h4 class="order-succes-title">Arizangiz muvaffaqiyatli yuborildi</h4>
+              <img class="order-seccses-img" src="./images/order-succses.svg" width="309" height="277" alt="Order succses added">
+              <p class="order-succses-text">Tez orada operatorlarimiz siz bilan bog’lanishadi</p>
+              <button class=" madal-order-send-btn" type="submit" data-bs-dismiss="modal" aria-label="Close">Ok</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./js//slick.min.js"></script>
+    <script src="./js/tecnalogies.js"></script>
+    <script src="./js/address.js"></script>
+    <script src="./js/carusels.js"></script>
+    <script src="./js/main.js"></script>
+  
+  </body>
 </html>

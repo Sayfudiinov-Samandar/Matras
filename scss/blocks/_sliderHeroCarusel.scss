@@ -1,0 +1,94 @@
+
+.slider{
+  margin: 0;
+  margin-top: 71px;
+  padding: 0;
+  list-style: none;
+  
+}
+.slick-slide {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 68px;
+  position: relative;
+}
+.header-slider-carusel-title {
+  width: 100%;
+  max-width: 735px;
+  margin: 0;
+  margin-bottom: 50px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 90px;
+  line-height: 105px;
+  color: #01384d;
+}
+.header-slider-carusel-btn {
+  position: relative;
+  margin-bottom: 100px;
+  padding: 13px 55px 13px 25px;
+  background-color: #FFFFFF;
+  border: 2px solid #01384D;
+  border-radius: 5px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #01384d;
+
+  &::after{
+    content: "";
+    position: absolute;
+    top: 18px;
+    right: 22px;
+    width: 15px;
+    height: 12px;
+    background-image: url("../../images/arrow-to.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+
+.header-slider-carusel-img{
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
+.slick-list {
+  overflow: hidden;
+}
+
+.slick-track {
+  display: flex;
+}
+.site-header * .slick-dots{
+  display: flex;
+  list-style: none;
+  padding: 0;
+  position: absolute;
+  bottom: 410px;
+}
+.site-header * .slick-dots li button{
+  cursor: pointer;
+}
+.site-header * .slick-dots li button{
+  width: 50px;
+  height: 3px;
+  border: 0;
+  font-size: 0;
+  background-color: #fff;
+
+}
+.site-header * .slick-dots .slick-active button{
+  background-color: #000;
+}
+
+.site-header * .slick-arrow{
+  display: none !important;
+
+}

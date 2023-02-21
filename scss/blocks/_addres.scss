@@ -1,0 +1,87 @@
+.addres-section {
+    padding-bottom: 80px;
+}
+
+
+.slider-in_item{
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+}
+.addres-li-info-box {
+  width: 100%;
+  max-width: 500px;
+}
+
+.addres-list_title {
+  margin: 0;
+  margin-bottom: 50px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 59px;
+  color: #01384d;
+}
+.addres-list_addres-name {
+  display: block;
+  margin: 0;
+  margin-bottom: 15px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 35px;
+  color: #01384d;
+}
+
+.addres-list_addres-text {
+  margin: 0;
+  margin-bottom: 46px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #01384d;
+}
+
+.addres-list_addres-map {
+  position: relative;
+  padding: 19px 105px 19px 145px;
+  border: 2px solid #01384d;
+  border-radius: 5px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  color: #01384d;
+  text-decoration: none;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 23px;
+    left: 95px;
+    width: 15px;
+    height: 16px;
+    background-image: url("../../images/map.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+}
+.swiper{
+    width: 40%;
+    margin: 0;
+}
+
+.addres-section * .slick-arrow{
+    display: none !important;
+  
+  }
+.swiper-wrapper{
+  list-style: none;
+}
+

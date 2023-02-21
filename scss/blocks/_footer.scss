@@ -1,1 +1,56 @@
+.site-footer {
+  padding: 61px 0 25px 0;
+}
 
+.footer-top-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.footer-top_list {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-top_list-link {
+  margin: 0;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #0a142f;
+  text-decoration: none;
+}
+
+.footer-links-box {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.footer-links {
+  text-decoration: none;
+}
+.site-sevfty {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #01384d;
+  opacity: 0.5;
+}
+.footer-bottom-box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.footer-arrow-to{
+    transform: rotate(-90deg);
+}
